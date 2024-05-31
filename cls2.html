@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>Welcome to Javascript</header>
+    <main>
+        <div>
+            <p id="text-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium aperiam nam eveniet fugit dolores architecto rem quidem natus. Consequuntur accusamus tenetur a unde similique tempore ad dolorum? Culpa, maiores.
+            </p>
+        </div>
+        <button onclick="makeBig()">
+            Make Big
+        </button>
+        <button onclick="makeSmall()">
+            Make Small
+        </button>
+        <script>
+            function makeBig(){
+                document.getElementById('text-content').style.fontSize='50px';
+            }
+            function makeSmall(){
+                document.getElementById('text-content').style.fontSize='30px';
+            }
+        </script>
+    </main>
+</body>
+</html>
